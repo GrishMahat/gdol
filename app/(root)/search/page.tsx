@@ -49,7 +49,7 @@ async function Page({
           </>
         )}
       </div>
-
+  
       <Pagination
         path='search'
         pageNumber={searchParams?.page ? +searchParams.page : 1}
